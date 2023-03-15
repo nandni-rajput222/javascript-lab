@@ -6,6 +6,52 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script>
+         var a=["NANDNI",18,"Shrishti",19,"Shweta",20,"Kanishka",19,"Aman Sidd",21];
+            document.write(a+"<br/>");
+         
+        //  index value
+        var a=["NANDNI",18,"Shrishti",19,"Shweta",20,"Kanishka",19,"Aman Sidd",21];
+            document.write(a+"<br/>");
+            document.write(a[8]+"<br/>");
+
+
+            // with for loop prinitng
+         var a=["NANDNI",18,"Shrishti",19,"Shweta",20,"Kanishka",19,"Aman Sidd",21];
+         for(var i=0;i<=8;i++)
+         {
+          document.write(a+"<br/>")
+         }
+        
+        //  list type printing
+        var a=["NANDNI",18,"Shrishti",19,"Shweta",20,"Kanishka",19,"Aman Sidd",21];
+        document.write("<ul>");
+         for(var i=0;i<=9;i++)
+         {
+        document.write("<li>"+a[i]+"</li>")
+         }
+         document.write("</ul>"+"</br>");
+
+        //  sum method
+        var b=[10,20,40,60,50];
+        sum=3;
+        for(var i=0;i<=4;i++)
+        {
+            sum=sum + b[i];
+        }
+        document.write("* Total these numbers are:",sum+ "</br>");
+
+        // multi-demensional array'
+        var c=[["Nandni",18,"bca","female"],
+              ["Dolly",18,"bca","female"],
+              ["kaniska",18,"bca","female"],
+              ["Shweta",18,"bca","female"]
+            ];
+            for(var i=0;i<=3;i++)
+            {
+            document.write(c[i]+"</br>");
+            }
+            // documemt.write(c[2]+"</br>");
+
         var a=["ram","neha","sweetie","30","riya",50,"ishika"];
 
         document.write(a+"<br/>");
