@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+form{
+    background-color: palevioletred;
+  border: 5px solid black;
+    width: 450px;
+    
+}
+span{
+    color:black;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+#btn{
+    margin-left: 150px;
+    width:120px;
+    height: 30px;
+    font-weight: 100;
+    margin-bottom: 5px;
+
+}
+label{
+    margin-left: 10px;
+}
+#txt{
+    margin-left: 10px;
+}
+    </style>
+</head>
+<body>
+    <div>
+    <h1>form</h1>
+    <form action="">
+        <br>
+        <!-- name -->
+        <label for="Name">First Name:</label>
+        <input type="text" placeholder="Enter your first name" id="" ><span class="name"></span>
+        <br>
+        <br>
+        <label for="Middle Name">Middle Name:</label>
+        <input type="text" placeholder="Enter your middle name" id=""><span></span>
+        <br><br>
+        <label for="Last Name">Last Name:</label>
+        <input type="text" placeholder="Enter your last name" id=""><span class="last"></span>
+        <br>
+        <br>
+        <!-- course selection -->
+        <label for="Course">Course:</label>
+        <select name="" id="">
+            <option value="">Course</option>
+            <option value="">BCA</option>
+            <option value="">BBA</option>
+            <option value="">B-tech</option>
+        </select>
+        <br>
+        <!-- for gender -->
+        <label for="gender" >Gender:</label> <span></span><br>        
+        <input type="radio" name="gender">
+        <label for="male">Male</label><br>
+        <input type="radio" name="gender">
+        <label for="female">female</label><br>
+        <input type="radio" name="gender">
+        <label for="other">Other</label><br>
+        <!-- phone name -->
+        <label for="tel">Phone No.</label>
+        <select name="" id="">
+            <option value="">+91</option>
+            <option value="">+11</option>
+        </select>
+        <input type="tel" placeholder="Enter your phone no"><span class="tel"></span>
+        <br>
+        <!-- for address -->
+        <label for="">Address:</label><br>
+        <textarea name="" id="txt" cols="30" rows="5  "></textarea>
+        <br>
+        <br>
+        <!-- for email -->
+        <label for="email">Email:</label>
+        <input type="text" placeholder="Enter your email"><span></span>
+        <br>
+        <br>
+        <!-- for password -->
+        <label for="password">Password:</label>
+        <input type="text" placeholder="Enter your password"><span class="pass"></span>
+        <br>
+        <br>
+        <label for="re-type password">Re-type password:</label>
+        <input type="text" placeholder="Enter your re-type password"><span class="pass1"></span>
+        <br>
+        <br>    
+        <!-- submition -->
+        <input type="submit" onclick="validation()" id="btn" value="Submit" >
+        
+    
+        <br>
+    </form>
+    </div>
+
+   
+    <script src="./app.js"></script>
+</body>
+</html>
